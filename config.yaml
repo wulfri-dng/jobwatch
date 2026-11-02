@@ -1,0 +1,72 @@
+# ─────────────────────────────────────────────────────────────
+# Job Watch settings. Edit this file on GitHub to change what you get alerted about.
+# Patterns are case-insensitive regular expressions matched against the job TITLE.
+# ─────────────────────────────────────────────────────────────
+
+titles:
+  include:
+    - 'software\s+engineer'            # Software Engineer, Senior / Associate Software Engineer
+    - 'software\s+developer'
+    - 'full[\s-]?stack'                # Full Stack / Fullstack / Full-Stack Engineer or Developer
+    - '\breact(\.?js)?\b'              # React / React.js / ReactJS developer
+    - '\bjavascript\b'
+    - '\bjs\s+(developer|engineer)'
+    - '\bfront[\s-]?end\b'             # Frontend / Front-end engineer
+    - '\bmern\b'
+    - '\bnext\.?js\b'
+    - '\bnode(\.?js)?\s+(developer|engineer)'
+    - '\btypescript\b'
+  exclude:
+    - '\bintern(ship)?\b'
+    - '\btrainee\b'
+    - '\bqa\b'
+    - 'quality\s+assurance'
+    - '\bsdet\b'
+    - 'in\s+test\b'
+    - '\btest(ing)?\s+(engineer|automation)'
+    - 'engineering\s+manager'
+    - '\bsales\b'
+    - '\bdata\s+(engineer|scientist|analyst)'
+    - '\bembedded\b'
+
+location:
+  # Company feeds from multinationals (IFS, LSEG, Thomson Reuters…) list jobs worldwide.
+  # A job from those feeds is kept only if its location mentions one of these.
+  sri_lanka_terms: ['sri lanka', 'colombo', 'kandy', 'galle', 'malabe', 'jaffna', 'negombo', 'moratuwa', 'kurunegala', ', lk', 'lka']
+  # Phase 2 (remote jobs): set to true to also keep worldwide "Remote" jobs.
+  allow_remote_anywhere: false
+  remote_terms: ['remote', 'anywhere', 'work from home']
+
+# Job boards that list jobs from many Sri Lankan companies.
+# These cover the companies that don't have their own careers page.
+aggregators:
+  - name: itpro.lk (latest jobs feed)
+    type: rss
+    url: https://itpro.lk/rss/
+  - name: itpro.lk Software Engineering
+    type: html
+    url: https://itpro.lk/jobs/software-engineering/
+  - name: itpro.lk Web Development
+    type: html
+    url: https://itpro.lk/jobs/web-development/
+  - name: Rooster.jobs (home page, best effort)
+    type: html
+    url: https://rooster.jobs/
+
+alerts:
+  # First run: send one summary of everything that matches right now, then only new jobs.
+  first_run_digest: true
+  first_run_digest_limit: 60
+  # A source that fails this many runs in a row is reported in the health report.
+  failure_threshold: 3
+  # Daily source health report, at this hour Sri Lanka time (0-23). Set to null to turn off.
+  health_report_hour: 9
+  timezone: Asia/Colombo
+
+fetching:
+  timeout_seconds: 25
+  max_workers: 8
+  # Uses a headless browser for pages that only show jobs after JavaScript runs.
+  # Adds about a minute to each run. Also set USE_BROWSER: 'true' in the workflow file.
+  use_browser: false
+  workday_search_terms: ['Sri Lanka', 'Colombo']

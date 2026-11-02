@@ -1,0 +1,64 @@
+name: Job Watch
+
+on:
+  schedule:
+    - cron: '7 * * * *'          # every hour at :07 (UTC; times are shown in Sri Lanka time in alerts)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'What to run'
+        type: choice
+        default: run
+        options:
+          - run            # normal check, sends alerts for new jobs
+          - check-sources  # test every source, print a status table, send nothing
+          - test-alert     # send a test message to Telegram / email
+          - dry-run        # show what would be sent, send nothing
+
+permissions:
+  contents: write                # needed to save state/seen.json back to the repo
+
+concurrency:
+  group: jobwatch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      USE_BROWSER: 'false'       # set to 'true' (and use_browser: true in config.yaml) for JavaScript-only pages
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Install headless browser
+        if: env.USE_BROWSER == 'true'
+        run: pip install playwright && python -m playwright install --with-deps chromium
+
+      - name: Run Job Watch
+        run: |
+          MODE="${{ github.event.inputs.mode || 'run' }}"
+          if [ "$MODE" = "run" ]; then python -m jobwatch; else python -m jobwatch --$MODE; fi
+
+      - name: Save what was already sent
+        if: github.event.inputs.mode == '' || github.event.inputs.mode == 'run'
+        run: |
+          git config user.name "jobwatch-bot"
+          git config user.email "jobwatch-bot@users.noreply.github.com"
+          git add state/
+          if git diff --cached --quiet; then echo "No state changes"; exit 0; fi
+          git commit -m "Update job state [skip ci]"
+          git pull --rebase --autostash || true
+          git push

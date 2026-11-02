@@ -1,0 +1,752 @@
+[
+  {
+    "company": "99x",
+    "type": "workable",
+    "feed_url": "https://apply.workable.com/api/v3/accounts/99x-careers/jobs",
+    "careers_url": "https://apply.workable.com/99x-careers/",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Creative Software",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://boards.rooster.jobs/156060",
+    "jobboard_url": "https://boards.rooster.jobs/156060",
+    "selector_hint": "Rooster company board: each job is an h6 heading containing an <a> (title) linking to boards.rooster.jobs/jobs/{id}, followed by type and location text",
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "IFS",
+    "type": "smartrecruiters",
+    "feed_url": "https://api.smartrecruiters.com/v1/companies/ifs1/postings",
+    "careers_url": "https://careers.smartrecruiters.com/ifs1",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "LSEG (London Stock Exchange Group)",
+    "type": "workday",
+    "feed_url": "https://lseg.wd3.myworkdayjobs.com/wday/cxs/lseg/Careers/jobs",
+    "careers_url": "https://lseg.wd3.myworkdayjobs.com/Careers",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Surge Global",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://boards.rooster.jobs/surge",
+    "jobboard_url": "https://boards.rooster.jobs/surge",
+    "selector_hint": "Rooster company board: each job is an h6 heading containing an <a> (title) linking to boards.rooster.jobs/jobs/{id}, followed by type and location text",
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "WSO2",
+    "type": "html",
+    "feed_url": null,
+    "careers_url": "https://wso2.com/careers",
+    "jobboard_url": null,
+    "selector_hint": "Jobs in the page HTML. Each job links to /careers/{id}/{yyyy-mm}-{slug} with link text 'DEPARTMENT Title LOCATION Full Time', plus an 'Apply Now' link to the same path. Filter on 'SRI LANKA'.",
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Arimac",
+    "type": "html",
+    "feed_url": null,
+    "careers_url": "https://arimac.digital/careers",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Axiata Digital Labs",
+    "type": "manatal",
+    "feed_url": null,
+    "careers_url": "https://www.careers-page.com/axonect",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Cambio Software Engineering",
+    "type": "teamtailor",
+    "feed_url": null,
+    "careers_url": "https://careers.cambio.lk/jobs",
+    "jobboard_url": null,
+    "selector_hint": "Each job links to /jobs/{id}-{slug}, with the title followed by 'Department · Location · Hybrid'.",
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "CodeGen International",
+    "type": "html",
+    "feed_url": null,
+    "careers_url": "https://codegen.co.uk/careers",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Dijital Team",
+    "type": "lever",
+    "feed_url": "https://api.lever.co/v0/postings/dijital-team-pty-ltd?mode=json",
+    "careers_url": "https://jobs.lever.co/dijital-team-pty-ltd",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "FCode Labs",
+    "type": "html",
+    "feed_url": null,
+    "careers_url": "https://www.fcodelabs.com/vacancies",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "HCLTech",
+    "type": "js_rendered",
+    "feed_url": null,
+    "careers_url": "https://careers.hcltech.com/go/Sri-Lanka/9555555",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Orysys",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://rooster.jobs/24558",
+    "jobboard_url": "https://rooster.jobs/24558",
+    "selector_hint": "Rooster company board: each job is an h6 heading containing an <a> (title) linking to boards.rooster.jobs/jobs/{id}, followed by type and location text",
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Qoria",
+    "type": "recruitee",
+    "feed_url": "https://qoria.recruitee.com/api/offers/",
+    "careers_url": "https://qoria.recruitee.com",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Swivel Group",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://rooster.jobs/21941",
+    "jobboard_url": "https://rooster.jobs/21941",
+    "selector_hint": "Rooster company board: each job is an h6 heading containing an <a> (title) linking to boards.rooster.jobs/jobs/{id}, followed by type and location text",
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Synopsys",
+    "type": "html",
+    "feed_url": null,
+    "careers_url": "https://careers.synopsys.com/employment/sri-lanka-engineering-jobs/44408/8675488/1227603/2",
+    "jobboard_url": null,
+    "selector_hint": "Radancy/TalentBrew site: ul > li items, each with an <a> (title) to a careers.synopsys.com job URL and location text.",
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "TIQRI",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://rooster.jobs/14427",
+    "jobboard_url": "https://rooster.jobs/14427",
+    "selector_hint": "Rooster company board: each job is an h6 heading containing an <a> (title) linking to boards.rooster.jobs/jobs/{id}, followed by type and location text",
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "VitalHub Innovations Lab",
+    "type": "bamboohr",
+    "feed_url": "https://vitalhub.bamboohr.com/careers/list",
+    "careers_url": "https://vitalhub.bamboohr.com/careers",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Acumatica",
+    "type": "smartrecruiters",
+    "feed_url": "https://api.smartrecruiters.com/v1/companies/acumatica/postings",
+    "careers_url": "https://careers.smartrecruiters.com/acumatica",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Circles",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://builtin.com/company/circles-circlesco/jobs",
+    "jobboard_url": "https://builtin.com/company/circles-circlesco/jobs",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Enactor Ltd",
+    "type": "html",
+    "feed_url": null,
+    "careers_url": "https://enactor.co/careers/",
+    "jobboard_url": null,
+    "selector_hint": "Each job card: icon img (job-icon-*.svg), h2 title (sometimes 'Role : ' prefix), h3 location, h3 'Experience : N Years', 'View more' <a>. Sri Lanka jobs link out to boards.rooster.jobs/jobs/{id}?source=website; UK/other jobs link to enactor.co/careers/{slug}/.",
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Gallagher",
+    "type": "js_rendered",
+    "feed_url": null,
+    "careers_url": "https://ajg.jibeapply.com/gcoe-home/jobs/locations/country/Sri+Lanka",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Multiplier",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://builtin.com/company/multiplier/jobs",
+    "jobboard_url": "https://builtin.com/company/multiplier/jobs",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Nimi",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://boards.rooster.jobs/25319",
+    "jobboard_url": "https://boards.rooster.jobs/25319",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Apadmi",
+    "type": "greenhouse",
+    "feed_url": "https://boards-api.greenhouse.io/v1/boards/apadmi/jobs",
+    "careers_url": "https://job-boards.eu.greenhouse.io/apadmi",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Cloud Solutions International",
+    "type": "recruitee",
+    "feed_url": "https://cloudsolutionsinternational.recruitee.com/api/offers/",
+    "careers_url": "https://cloudsolutionsinternational.recruitee.com/",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Code94 Labs",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://boards.rooster.jobs/9530",
+    "jobboard_url": "https://boards.rooster.jobs/9530",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Cogent Solutions Event Marketing (Pvt) Ltd",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://rooster.jobs/jobs/509338",
+    "jobboard_url": "https://rooster.jobs/154413",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Concord Group / Blåkläder",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://jobhub.lk/job?id=272504",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "CUBE",
+    "type": "ashby",
+    "feed_url": "https://api.ashbyhq.com/posting-api/job-board/CUBE",
+    "careers_url": "https://jobs.ashbyhq.com/CUBE",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Earrow Pvt Ltd",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://itpro.lk/jobs-at/earrow-pvt-ltd/",
+    "jobboard_url": "https://itpro.lk/jobs-at/earrow-pvt-ltd/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Eblix Technologies",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/job/11828/react-developer-at-eblix-technologies",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "FreeBalance",
+    "type": "lever",
+    "feed_url": "https://api.lever.co/v0/postings/freebalance.com?mode=json",
+    "careers_url": "https://jobs.lever.co/freebalance.com",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Freedom Business Services (Pvt) Ltd",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://rooster.jobs/153971",
+    "jobboard_url": "https://rooster.jobs/153971",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Grubtech",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://builtin.com/company/grubtech/jobs",
+    "jobboard_url": "https://builtin.com/company/grubtech/jobs",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "H2O.ai",
+    "type": "jazzhr",
+    "feed_url": null,
+    "careers_url": "https://h2oai.applytojob.com/apply",
+    "jobboard_url": "https://builtin.com/company/h2oai/jobs",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "HealthRecon Connect LLC (HRC Labs)",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://jobhub.lk/job?id=185741",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "HeyMilo AI",
+    "type": "manatal",
+    "feed_url": null,
+    "careers_url": "https://careers-page.com/heymilo-ai",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "iLabs",
+    "type": "manatal",
+    "feed_url": null,
+    "careers_url": "https://careers-page.com/ilabs",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Inivos",
+    "type": "workable",
+    "feed_url": "https://apply.workable.com/api/v3/accounts/inivos/jobs",
+    "careers_url": "https://apply.workable.com/inivos/",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Innovative E Pvt Ltd",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://itpro.lk/jobs-at/innovative-e-pvt-ltd/",
+    "jobboard_url": "https://itpro.lk/jobs-at/innovative-e-pvt-ltd/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Insk Group",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/job/12351/full-stack-developer-at-insk-group",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "ITX Digital Services (Pvt) Ltd",
+    "type": "html",
+    "feed_url": null,
+    "careers_url": "https://careers.itxdigitalservices.com",
+    "jobboard_url": "https://itpro.lk/job/12366/full-stack-developer-at-itx-digital-services",
+    "selector_hint": "Vacancies at careers.itxdigitalservices.com/vacancy.php?id=N (ids 3,7,8 seen) plus /ai. The index page structure was not seen.",
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Kaleris",
+    "type": "greenhouse",
+    "feed_url": "https://boards-api.greenhouse.io/v1/boards/kaleris/jobs",
+    "careers_url": "https://boards.greenhouse.io/kaleris",
+    "jobboard_url": "https://builtin.com/company/kaleris/jobs",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Kast",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://web3.career/web3-companies/kast",
+    "jobboard_url": "https://web3.career/web3-companies/kast",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Liquid Labs",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://itpro.lk/jobs-at/liquid-labs/",
+    "jobboard_url": "https://itpro.lk/jobs-at/liquid-labs/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "MarketPush Apps",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/job/11514/senior-react-developer-at-marketpush-apps",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "MetaSolutionsLab Ltd",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/job/11380/fullstack-developer-%e2%80%93-metasolutionslab-ltd-at-metasolutionslab-ltd",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Nextjob",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": "https://rooster.jobs/nextjob",
+    "jobboard_url": "https://rooster.jobs/nextjob",
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Novrix Solutions",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/novrix-solutions-pvt-ltd/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Orfium",
+    "type": "workable",
+    "feed_url": "https://apply.workable.com/api/v3/accounts/orfium/jobs",
+    "careers_url": "https://apply.workable.com/orfium/",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "PacificKode",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/pacifickode/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Payable Pvt Ltd (PAYable)",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://www.rooster.jobs/payable",
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Q4 Inc",
+    "type": "smartrecruiters",
+    "feed_url": "https://api.smartrecruiters.com/v1/companies/Q4US/postings",
+    "careers_url": "https://careers.smartrecruiters.com/Q4US",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Qmirac Inc",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/qmirac-inc/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Robotic Assistance Devices",
+    "type": "lever",
+    "feed_url": "https://api.lever.co/v0/postings/RoboticAssistanceDevices?mode=json",
+    "careers_url": "https://jobs.lever.co/RoboticAssistanceDevices",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Rooster Technology",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://rooster.jobs/9583",
+    "selector_hint": null,
+    "confidence": "high",
+    "enabled": true
+  },
+  {
+    "company": "Setjob.lk",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://rooster.jobs/155699",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "ShiftCare",
+    "type": "workable",
+    "feed_url": "https://apply.workable.com/api/v3/accounts/shiftcare/jobs",
+    "careers_url": "https://apply.workable.com/shiftcare/",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "ShiftX",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://boards.rooster.jobs/23871",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Simplebooks (Pvt) Limited",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://boards.rooster.jobs/simplebooks",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Skillfully",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://boards.rooster.jobs/17548",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Stalione Lanka (Pvt) Ltd",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/stalione-lanka-pvt-ltd/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "tecciance",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/tecciance/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Tech Hire Ventures",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://rooster.jobs/12915",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Thomson Reuters",
+    "type": "workday",
+    "feed_url": "https://thomsonreuters.wd5.myworkdayjobs.com/wday/cxs/thomsonreuters/External_Career_Site/jobs",
+    "careers_url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Type B Digital",
+    "type": "html",
+    "feed_url": null,
+    "careers_url": "https://www.typeb.digital/careers#open-roles",
+    "jobboard_url": "https://boards.rooster.jobs/153507",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Ucombinator",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/ucombinator/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Velou",
+    "type": "manatal",
+    "feed_url": null,
+    "careers_url": "https://www.careers-page.com/velou-inc-2",
+    "jobboard_url": null,
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Verdentra",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/verdentra/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "WealthTrust Securities Limited",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/wealthtrust-securities-limited/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Wonder Software Engineering",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/wonder-software-engineering/",
+    "selector_hint": null,
+    "confidence": "low",
+    "enabled": true
+  },
+  {
+    "company": "Zeawis Ltd",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/zeawis-ltd/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  },
+  {
+    "company": "Zenzebz Technologies",
+    "type": "jobboard_only",
+    "feed_url": null,
+    "careers_url": null,
+    "jobboard_url": "https://itpro.lk/jobs-at/zenzebz-technologies/",
+    "selector_hint": null,
+    "confidence": "medium",
+    "enabled": true
+  }
+]
